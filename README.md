@@ -36,6 +36,8 @@ rmse = np.sqrt(mean_squared_error(y_test,y_pred))
 
 print(rmse)
 
+## Output = 5.8612799671644344
+
 # Question 4: In practice we determine the weights for linear regression with the "X_test" data.
 
 True. X_test is the test data that is run until a proper linear model can be determined including the best linear weights for the regression. 
@@ -57,6 +59,8 @@ y = df['Grade']
 x_train,x_test,y_train,y_test = tts(X_1,y, test_size = 0.25, random_state = 1234)
 
 len(x_train)
+
+## Output = 23
 
 # Question 8: The gradient descent method does not need any hyperparameters.
 
