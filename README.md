@@ -32,12 +32,12 @@ True. X_test is the test data that is run until a proper linear model can be det
 False. Polynomial regression is best suited for functional relationships that are non-linear
        in the data, not the weights. 
 
-Question 6: Linear regression, multiple linear regression, and polynomial regression can be all fit using LinearRegression() from the sklearn.linear_model module in Python.
+# Question 6: Linear regression, multiple linear regression, and polynomial regression can be all fit using LinearRegression() from the sklearn.linear_model module in Python.
 
-# True. Linear Regression, multiple linear regression, and polynomail regression can be fit using
-#       LinearRegression(), for polynomial regression you need to use Polynomial Features first. 
+True. Linear Regression, multiple linear regression, and polynomail regression can be fit using
+      LinearRegression(), for polynomial regression you need to use Polynomial Features first. 
 
-Question 7: Write your own code to import L3Data.csv into python as a data frame. Then save the feature values  'days online','views','contributions','answers' into a matrix x and consider 'Grade' values as the dependent variable. If you separate the data into Train & Test with test_size=0.25 and random_state = 1234, then the number of observations we have in the Train data is:
+# Question 7: Write your own code to import L3Data.csv into python as a data frame. Then save the feature values  'days online','views','contributions','answers' into a matrix x and consider 'Grade' values as the dependent variable. If you separate the data into Train & Test with test_size=0.25 and random_state = 1234, then the number of observations we have in the Train data is:
 
 X_1 = X.drop('questions', axis = 1)
 y = df['Grade']
